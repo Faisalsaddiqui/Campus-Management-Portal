@@ -1,0 +1,7 @@
+DRAFT DOCS
+
+Admin Panel: 
+
+- CRUD Faculties, Department, Courses, Programs
+- A Faculty has many Departments. A Department belongs to a Faculty
+- 

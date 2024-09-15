@@ -1,0 +1,24 @@
+@import url("customanimations.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply bg-gray-100 h-full;
+}
+
+.btn-main {
+    @apply bg-indigo-500 text-white inline px-4 py-2 cursor-pointer rounded-md;
+}
+
+.form-row {
+    @apply p-8 -mr-6 -mb-8 flex flex-wrap;
+}
+.form-textarea {
+    @apply p-2 leading-normal block w-full border text-gray-700 bg-white font-sans rounded text-left appearance-none relative focus:border-indigo-400 focus:ring;
+}
+
+.form-textarea.error {
+    @apply border-red-500 focus:ring focus:ring-red-200;
+}
